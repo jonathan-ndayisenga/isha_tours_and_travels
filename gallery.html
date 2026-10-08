@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Isha Tours and Travels</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': {
+                            50: '#f2fbf7',
+                            100: '#dbf4e7',
+                            200: '#b8e8d0',
+                            300: '#86d3b0',
+                            400: '#4fb58a',
+                            500: '#0f5132',
+                            600: '#0b3d2e',
+                            700: '#083126',
+                            800: '#06271f',
+                            900: '#041f18',
+                        },
+                        'cream': {
+                            50: '#fffdf6',
+                            100: '#fff7e6',
+                            200: '#ffefcc',
+                            300: '#ffe4a3',
+                            400: '#ffd56b',
+                            500: '#ffc238',
+                            600: '#e0a820',
+                            700: '#c78814',
+                            800: '#9b6510',
+                            900: '#6b420c',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-cream-100 text-gray-900">
+    <!-- Header -->
+    <header class="fixed w-full bg-cream-50 shadow-md z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-primary-700">
+                    <picture>
+                        <source srcset="assets/images/logo/logo.webp" type="image/webp">
+                        <img src="assets/images/logo/logo.png" alt="Isha Tours and Travels logo" class="h-10 w-10 object-contain" width="40" height="40" loading="eager" decoding="async">
+                    </picture>
+                    <span>Isha <span class="text-primary-500">Tours &amp; Travels</span></span>
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-700 hover:text-primary-600 font-medium">Home</a>
+                <a href="safaris.html" class="text-gray-700 hover:text-primary-600 font-medium">Activities</a>
+                <a href="holiday-packages.html" class="text-gray-700 hover:text-primary-600 font-medium">Tour Packages</a>
+                <a href="gallery.html" class="text-primary-600 font-medium border-b-2 border-primary-600">Gallery</a>
+                <a href="about-us.html" class="text-gray-700 hover:text-primary-600 font-medium">About Us</a>
+                <a href="contact.html" class="text-gray-700 hover:text-primary-600 font-medium">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/256706190278" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all hidden md:inline-block">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                </a>
+                <button class="md:hidden text-gray-700" data-mobile-menu-button aria-controls="mobile-menu" aria-label="Open menu">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-cream-50 border-t" id="mobile-menu">
+            <div class="container mx-auto px-4 py-4 space-y-4">
+                <a href="index.html" class="block text-gray-700 hover:text-primary-600 font-medium">Home</a>
+                <a href="safaris.html" class="block text-gray-700 hover:text-primary-600 font-medium">Activities</a>
+                <a href="holiday-packages.html" class="block text-gray-700 hover:text-primary-600 font-medium">Tour Packages</a>
+                <a href="gallery.html" class="block text-gray-700 hover:text-primary-600 font-medium">Gallery</a>
+                <a href="about-us.html" class="block text-gray-700 hover:text-primary-600 font-medium">About Us</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-primary-600 font-medium">Contact</a>
+                <a href="https://wa.me/256706190278" class="block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all text-center">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                </a>
+                <a href="tel:+256706190278" class="block bg-primary-500 text-white px-4 py-2 rounded-lg hover:bg-primary-600 transition-all text-center">
+                    <i class="fas fa-phone mr-2"></i>Call Us
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Gallery Hero -->
+    <section class="bg-primary-600 pt-24 pb-20 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Photo Gallery</h1>
+            <p class="text-xl">Capturing the beauty of Uganda through our lens</p>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="py-16 bg-cream-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-3">Activities & Experiences</h2>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Browse real moments from our adventures across Uganda.</p>
+            </div>
+
+            <div id="gallery-empty" class="hidden rounded-xl border border-dashed border-gray-300 bg-white p-8 text-center text-gray-700"></div>
+            <div id="gallery-root" class="space-y-14"></div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="py-16 bg-primary-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Create Your Own Memories?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Let us help you experience these incredible moments firsthand.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="https://wa.me/256706190278" class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all text-center">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp Us
+                </a>
+                <a href="tel:+256706190278" class="w-full sm:w-auto bg-white text-primary-700 px-8 py-3 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all inline-block text-center">
+                    <i class="fas fa-phone mr-2"></i>Call Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-primary-400 mb-4">Isha Tours and Travels</h3>
+                    <p class="text-gray-400">Where wonders roam — authentic Uganda adventures designed by locals.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="safaris.html" class="text-gray-400 hover:text-white transition">Activities</a></li>
+                        <li><a href="holiday-packages.html" class="text-gray-400 hover:text-white transition">Tour Packages</a></li>
+                        <li><a href="about-us.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about-us.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white transition">Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p><i class="fas fa-phone mr-2"></i> +256 706 190 278</p>
+                        <p><i class="fas fa-envelope mr-2"></i> ishatoursandtravels256@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Isha Tours and Travels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/site/mobile-menu.js"></script>
+    <script type="module" src="assets/js/pages/gallery-page.js"></script>
+</body>
+</html>

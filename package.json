@@ -1,0 +1,8 @@
+{
+  "name": "isha-tours-and-travels-site",
+  "private": true,
+  "scripts": {
+    "build:gallery": "node scripts/build-activities-manifest.mjs"
+  }
+}
+

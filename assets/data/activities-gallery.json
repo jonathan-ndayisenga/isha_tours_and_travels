@@ -1,0 +1,504 @@
+{
+  "generatedAt": "2026-02-06T18:27:06.479Z",
+  "root": "assets/images/Activities",
+  "categories": [
+    {
+      "id": "batwa-trails",
+      "title": "Batwa Trails",
+      "caption": "Batwa cultural trail experience in Uganda",
+      "folderName": "Batwa trails",
+      "images": [
+        {
+          "src": "assets/images/Activities/Batwa trails/More Batwa.jpg",
+          "alt": "Batwa cultural trail experience in Uganda",
+          "fileName": "More Batwa.jpg",
+          "ext": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "bird-watching",
+      "title": "Bird Watching",
+      "caption": "Bird watching tour in Uganda",
+      "folderName": "Bird watching",
+      "images": [
+        {
+          "src": "assets/images/Activities/Bird watching/Bird watching.jpg",
+          "alt": "Bird watching tour in Uganda - photo 1",
+          "fileName": "Bird watching.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Bird watching/lake mutanda 2.jpg",
+          "alt": "Bird watching tour in Uganda - photo 2",
+          "fileName": "lake mutanda 2.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Bird watching/RWENZORI T.jpg",
+          "alt": "Bird watching tour in Uganda - photo 3",
+          "fileName": "RWENZORI T.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Bird watching/WhatsApp Image 2025-09-23 at 10.07.20.jpeg.jpg",
+          "alt": "Bird watching tour in Uganda - photo 4",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.20.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Bird watching/WhatsApp Image 2025-09-23 at 10.07.26.jpeg.jpg",
+          "alt": "Bird watching tour in Uganda - photo 5",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.26.jpeg.jpg",
+          "ext": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "coffee-experience",
+      "title": "Coffee Experience",
+      "caption": "Coffee experience tour in Uganda",
+      "folderName": "Coffee experience",
+      "images": [
+        {
+          "src": "assets/images/Activities/Coffee experience/IMG-20250926-WA0003.jpg",
+          "alt": "Coffee experience tour in Uganda - photo 1",
+          "fileName": "IMG-20250926-WA0003.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Coffee experience/IMG-20250926-WA0004.jpg",
+          "alt": "Coffee experience tour in Uganda - photo 2",
+          "fileName": "IMG-20250926-WA0004.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Coffee experience/IMG-20250926-WA0006.jpg",
+          "alt": "Coffee experience tour in Uganda - photo 3",
+          "fileName": "IMG-20250926-WA0006.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Coffee experience/IMG-20250926-WA0007.jpg",
+          "alt": "Coffee experience tour in Uganda - photo 4",
+          "fileName": "IMG-20250926-WA0007.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Coffee experience/isha in bwindi.jpg",
+          "alt": "Coffee experience tour in Uganda - photo 5",
+          "fileName": "isha in bwindi.jpg",
+          "ext": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "cycling",
+      "title": "Cycling",
+      "caption": "Cycling adventure experience in Uganda",
+      "folderName": "Cycling",
+      "images": [
+        {
+          "src": "assets/images/Activities/Cycling/Cycling .jpg",
+          "alt": "Cycling adventure experience in Uganda - photo 1",
+          "fileName": "Cycling .jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/Ezra on a bike.jpg",
+          "alt": "Cycling adventure experience in Uganda - photo 2",
+          "fileName": "Ezra on a bike.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_0767.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 3",
+          "fileName": "IMG_0767.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_0860_1.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 4",
+          "fileName": "IMG_0860_1.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_0865_1.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 5",
+          "fileName": "IMG_0865_1.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_4770.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 6",
+          "fileName": "IMG_4770.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_4772.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 7",
+          "fileName": "IMG_4772.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_4774.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 8",
+          "fileName": "IMG_4774.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_4775.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 9",
+          "fileName": "IMG_4775.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_4776.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 10",
+          "fileName": "IMG_4776.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/IMG_4777.JPG",
+          "alt": "Cycling adventure experience in Uganda - photo 11",
+          "fileName": "IMG_4777.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/Isha__bikes_@2[1].jpg",
+          "alt": "Cycling adventure experience in Uganda - photo 12",
+          "fileName": "Isha__bikes_@2[1].jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/ISHA_BIKE_@4[1].jpg",
+          "alt": "Cycling adventure experience in Uganda - photo 13",
+          "fileName": "ISHA_BIKE_@4[1].jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/Isha_bikes[1].jpg",
+          "alt": "Cycling adventure experience in Uganda - photo 14",
+          "fileName": "Isha_bikes[1].jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/WhatsApp Image 2025-09-23 at 10.13.04.jpeg.jpg",
+          "alt": "Cycling adventure experience in Uganda - photo 15",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.13.04.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Cycling/WhatsApp Image 2025-09-23 at 10.13.05.jpeg.jpg",
+          "alt": "Cycling adventure experience in Uganda - photo 16",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.13.05.jpeg.jpg",
+          "ext": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "gorilla-tracking",
+      "title": "Gorilla Tracking",
+      "caption": "Gorilla tracking experience in Bwindi, Uganda",
+      "folderName": "Gorilla tracking",
+      "images": [
+        {
+          "src": "assets/images/Activities/Gorilla tracking/golden monkey.jpg",
+          "alt": "Gorilla tracking experience in Bwindi, Uganda - photo 1",
+          "fileName": "golden monkey.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Gorilla tracking/IMG_0446.JPG",
+          "alt": "Gorilla tracking experience in Bwindi, Uganda - photo 2",
+          "fileName": "IMG_0446.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Gorilla tracking/IMG_0452.JPG",
+          "alt": "Gorilla tracking experience in Bwindi, Uganda - photo 3",
+          "fileName": "IMG_0452.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Gorilla tracking/IMG_0576.JPG",
+          "alt": "Gorilla tracking experience in Bwindi, Uganda - photo 4",
+          "fileName": "IMG_0576.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Gorilla tracking/IMG_4324.PNG",
+          "alt": "Gorilla tracking experience in Bwindi, Uganda - photo 5",
+          "fileName": "IMG_4324.PNG",
+          "ext": "png"
+        },
+        {
+          "src": "assets/images/Activities/Gorilla tracking/IMG_4326.PNG",
+          "alt": "Gorilla tracking experience in Bwindi, Uganda - photo 6",
+          "fileName": "IMG_4326.PNG",
+          "ext": "png"
+        },
+        {
+          "src": "assets/images/Activities/Gorilla tracking/IMG_4327.PNG",
+          "alt": "Gorilla tracking experience in Bwindi, Uganda - photo 7",
+          "fileName": "IMG_4327.PNG",
+          "ext": "png"
+        },
+        {
+          "src": "assets/images/Activities/Gorilla tracking/IMG_4328.PNG",
+          "alt": "Gorilla tracking experience in Bwindi, Uganda - photo 8",
+          "fileName": "IMG_4328.PNG",
+          "ext": "png"
+        }
+      ]
+    },
+    {
+      "id": "lake-mburo-national-park",
+      "title": "Lake Mburo National Park",
+      "caption": "Lake Mburo National Park safari experience in Uganda",
+      "folderName": "Lake Mburo National Park",
+      "images": [
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/IMG_4325.PNG",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 1",
+          "fileName": "IMG_4325.PNG",
+          "ext": "png"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.29.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 2",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.29.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.30.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 3",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.30.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.31 (1).jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 4",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.31 (1).jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.31.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 5",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.31.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.32 (1).jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 6",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.32 (1).jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.32.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 7",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.32.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.33.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 8",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.33.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.34.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 9",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.34.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.07.35.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 10",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.07.35.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.12.58.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 11",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.12.58.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.13.00.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 12",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.13.00.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.13.09.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 13",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.13.09.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-23 at 10.13.10.jpeg.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 14",
+          "fileName": "WhatsApp Image 2025-09-23 at 10.13.10.jpeg.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake Mburo National Park/WhatsApp Image 2025-09-25 at 21.12.05_0077c71e.jpg",
+          "alt": "Lake Mburo National Park safari experience in Uganda - photo 15",
+          "fileName": "WhatsApp Image 2025-09-25 at 21.12.05_0077c71e.jpg",
+          "ext": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "lake-mutanda",
+      "title": "Lake Mutanda",
+      "caption": "Lake Mutanda canoeing and nature experience in Uganda",
+      "folderName": "Lake mutanda",
+      "images": [
+        {
+          "src": "assets/images/Activities/Lake mutanda/IMG_4769.JPG",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 1",
+          "fileName": "IMG_4769.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/IMG-20250923-WA0030.jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 2",
+          "fileName": "IMG-20250923-WA0030.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/IMG-20250923-WA0031.jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 3",
+          "fileName": "IMG-20250923-WA0031.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/IMG-20250923-WA0033.jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 4",
+          "fileName": "IMG-20250923-WA0033.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/IMG-20250923-WA0035.jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 5",
+          "fileName": "IMG-20250923-WA0035.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/IMG-20250923-WA0036.jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 6",
+          "fileName": "IMG-20250923-WA0036.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/IMG-20250923-WA0037.jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 7",
+          "fileName": "IMG-20250923-WA0037.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/IMG-20250923-WA0038.jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 8",
+          "fileName": "IMG-20250923-WA0038.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/isha@_mutanda_2[1].jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 9",
+          "fileName": "isha@_mutanda_2[1].jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Lake mutanda/Lake_mutanda_@1[1].jpg",
+          "alt": "Lake Mutanda canoeing and nature experience in Uganda - photo 10",
+          "fileName": "Lake_mutanda_@1[1].jpg",
+          "ext": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "virunga-peaks-challenge",
+      "title": "Virunga Peaks Challenge",
+      "caption": "Virunga Peaks hiking challenge in Uganda",
+      "folderName": "Virunga Peaks Challenge",
+      "images": [
+        {
+          "src": "assets/images/Activities/Virunga Peaks Challenge/IMG_0789.JPG",
+          "alt": "Virunga Peaks hiking challenge in Uganda - photo 1",
+          "fileName": "IMG_0789.JPG",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Virunga Peaks Challenge/THE_VOLCANOS[1].jpg",
+          "alt": "Virunga Peaks hiking challenge in Uganda - photo 2",
+          "fileName": "THE_VOLCANOS[1].jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Virunga Peaks Challenge/WhatsApp Image 2025-09-25 at 00.41.52_7afd6ec7.jpg",
+          "alt": "Virunga Peaks hiking challenge in Uganda - photo 3",
+          "fileName": "WhatsApp Image 2025-09-25 at 00.41.52_7afd6ec7.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Virunga Peaks Challenge/WhatsApp Image 2025-09-25 at 00.42.19_affc8b3e.jpg",
+          "alt": "Virunga Peaks hiking challenge in Uganda - photo 4",
+          "fileName": "WhatsApp Image 2025-09-25 at 00.42.19_affc8b3e.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Virunga Peaks Challenge/WhatsApp Image 2025-09-25 at 00.44.51_ea29e5dc.jpg",
+          "alt": "Virunga Peaks hiking challenge in Uganda - photo 5",
+          "fileName": "WhatsApp Image 2025-09-25 at 00.44.51_ea29e5dc.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Virunga Peaks Challenge/WhatsApp Image 2025-09-25 at 00.45.24_f4d5c1fb.jpg",
+          "alt": "Virunga Peaks hiking challenge in Uganda - photo 6",
+          "fileName": "WhatsApp Image 2025-09-25 at 00.45.24_f4d5c1fb.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/Virunga Peaks Challenge/WhatsApp Image 2025-09-25 at 21.12.09_137054e5.jpg",
+          "alt": "Virunga Peaks hiking challenge in Uganda - photo 7",
+          "fileName": "WhatsApp Image 2025-09-25 at 21.12.09_137054e5.jpg",
+          "ext": "jpg"
+        }
+      ]
+    },
+    {
+      "id": "zip-lining-on-lake-mutanda",
+      "title": "Zip Lining on Lake Mutanda",
+      "caption": "Zip lining experience on Lake Mutanda, Uganda",
+      "folderName": "zip lining on lake mutanda",
+      "images": [
+        {
+          "src": "assets/images/Activities/zip lining on lake mutanda/ziiippppp.jpg",
+          "alt": "Zip lining experience on Lake Mutanda, Uganda - photo 1",
+          "fileName": "ziiippppp.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/zip lining on lake mutanda/zip lii.jpg",
+          "alt": "Zip lining experience on Lake Mutanda, Uganda - photo 2",
+          "fileName": "zip lii.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/zip lining on lake mutanda/zip liiiii.jpg",
+          "alt": "Zip lining experience on Lake Mutanda, Uganda - photo 3",
+          "fileName": "zip liiiii.jpg",
+          "ext": "jpg"
+        },
+        {
+          "src": "assets/images/Activities/zip lining on lake mutanda/zip lining .jpg",
+          "alt": "Zip lining experience on Lake Mutanda, Uganda - photo 4",
+          "fileName": "zip lining .jpg",
+          "ext": "jpg"
+        }
+      ]
+    }
+  ]
+}

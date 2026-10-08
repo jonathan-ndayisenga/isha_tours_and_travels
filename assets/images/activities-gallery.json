@@ -1,0 +1,103 @@
+{
+  "activities": [
+    {
+      "folder": "Batwa trails",
+      "name": "Batwa Cultural Trails",
+      "description": "Experience the ancient culture of the Batwa pygmies in Uganda",
+      "images": [
+        {
+          "filename": "batwa-trail-1.jpg",
+          "alt": "Batwa tribe cultural experience"
+        }
+      ]
+    },
+    {
+      "folder": "Bird watching",
+      "name": "Bird Watching Tours",
+      "description": "Spot Uganda's diverse bird species in their natural habitats",
+      "images": [
+        {
+          "filename": "bird-watching-1.jpg",
+          "alt": "Colorful bird in Uganda forest"
+        }
+      ]
+    },
+    {
+      "folder": "Coffee experience",
+      "name": "Coffee Farm Experience",
+      "description": "From bean to cup: Experience Uganda's coffee culture",
+      "images": [
+        {
+          "filename": "coffee-1.jpg",
+          "alt": "Coffee farming experience in Uganda"
+        }
+      ]
+    },
+    {
+      "folder": "Cycling",
+      "name": "Mountain Biking Adventures",
+      "description": "Cycling tours through Uganda's beautiful landscapes",
+      "images": [
+        {
+          "filename": "cycling-1.jpg",
+          "alt": "Mountain biking in Uganda"
+        }
+      ]
+    },
+    {
+      "folder": "Gorilla tracking",
+      "name": "Gorilla Trekking",
+      "description": "Mountain gorilla tracking in Bwindi Impenetrable Forest",
+      "images": [
+        {
+          "filename": "gorilla-tracking-1.jpg",
+          "alt": "Mountain gorilla in Bwindi Forest"
+        }
+      ]
+    },
+    {
+      "folder": "Lake Mburo National Park",
+      "name": "Lake Mburo Safari",
+      "description": "Game drives and boat safaris in Lake Mburo National Park",
+      "images": [
+        {
+          "filename": "lake-mburo-1.jpg",
+          "alt": "Wildlife at Lake Mburo National Park"
+        }
+      ]
+    },
+    {
+      "folder": "Lake mutanda",
+      "name": "Lake Mutanda Adventures",
+      "description": "Canoeing and scenic tours on Lake Mutanda",
+      "images": [
+        {
+          "filename": "lake-mutanda-1.jpg",
+          "alt": "Beautiful Lake Mutanda scenery"
+        }
+      ]
+    },
+    {
+      "folder": "Virunga Peaks Challenge",
+      "name": "Virunga Peaks Hiking",
+      "description": "Challenging hikes across the Virunga volcanic mountains",
+      "images": [
+        {
+          "filename": "virunga-1.jpg",
+          "alt": "Hiking the Virunga volcanoes"
+        }
+      ]
+    },
+    {
+      "folder": "zip lining on lake mutanda",
+      "name": "Zip Lining Adventure",
+      "description": "Thrilling zip lining over Lake Mutanda",
+      "images": [
+        {
+          "filename": "ziplining-1.jpg",
+          "alt": "Zip lining adventure over Lake Mutanda"
+        }
+      ]
+    }
+  ]
+}

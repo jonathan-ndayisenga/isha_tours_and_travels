@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Packages - Isha Tours and Travels</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': {
+                            50: '#f2fbf7',
+                            100: '#dbf4e7',
+                            200: '#b8e8d0',
+                            300: '#86d3b0',
+                            400: '#4fb58a',
+                            500: '#0f5132',
+                            600: '#0b3d2e',
+                            700: '#083126',
+                            800: '#06271f',
+                            900: '#041f18',
+                        },
+                        'cream': {
+                            50: '#fffdf6',
+                            100: '#fff7e6',
+                            200: '#ffefcc',
+                            300: '#ffe4a3',
+                            400: '#ffd56b',
+                            500: '#ffc238',
+                            600: '#e0a820',
+                            700: '#c78814',
+                            800: '#9b6510',
+                            900: '#6b420c',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .packages-hero {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('assets/images/packages/virunga-peaks-challenge-hero.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), image-set(
+                url('assets/images/packages/virunga-peaks-challenge-hero.webp') type('image/webp'),
+                url('assets/images/packages/virunga-peaks-challenge-hero.jpg') type('image/jpeg')
+            );
+            background-size: cover;
+            background-position: center;
+        }
+        .package-card { transition: all 0.3s ease; }
+        .package-card:hover { transform: translateY(-5px); }
+    </style>
+</head>
+<body class="font-sans bg-cream-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-cream-50 shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-primary-700">
+                    <picture>
+                        <source srcset="assets/images/logo/logo.webp" type="image/webp">
+                        <img src="assets/images/logo/logo.png" alt="Isha Tours and Travels logo" class="h-10 w-10 object-contain" width="40" height="40" loading="eager" decoding="async">
+                    </picture>
+                    <span>Isha <span class="text-primary-500">Tours &amp; Travels</span></span>
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-700 hover:text-primary-600 font-medium">Home</a>
+                <a href="safaris.html" class="text-gray-700 hover:text-primary-600 font-medium">Activities</a>
+                <a href="holiday-packages.html" class="text-primary-600 font-medium border-b-2 border-primary-600">Tour Packages</a>
+                <a href="gallery.html" class="text-gray-700 hover:text-primary-600 font-medium">Gallery</a>
+                <a href="about-us.html" class="text-gray-700 hover:text-primary-600 font-medium">About Us</a>
+                <a href="contact.html" class="text-gray-700 hover:text-primary-600 font-medium">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/256706190278" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all hidden md:inline-block">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                </a>
+                <button class="md:hidden text-gray-700" data-mobile-menu-button aria-controls="mobile-menu" aria-label="Open menu">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-cream-50 border-t" id="mobile-menu">
+            <div class="container mx-auto px-4 py-4 space-y-4">
+                <a href="index.html" class="block text-gray-700 hover:text-primary-600 font-medium">Home</a>
+                <a href="safaris.html" class="block text-gray-700 hover:text-primary-600 font-medium">Activities</a>
+                <a href="holiday-packages.html" class="block text-gray-700 hover:text-primary-600 font-medium">Tour Packages</a>
+                <a href="gallery.html" class="block text-gray-700 hover:text-primary-600 font-medium">Gallery</a>
+                <a href="about-us.html" class="block text-gray-700 hover:text-primary-600 font-medium">About Us</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-primary-600 font-medium">Contact</a>
+                <a href="https://wa.me/256706190278" class="block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all text-center">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                </a>
+                <a href="tel:+256706190278" class="block bg-primary-500 text-white px-4 py-2 rounded-lg hover:bg-primary-600 transition-all text-center">
+                    <i class="fas fa-phone mr-2"></i>Call Us
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="packages-hero pt-16 pb-20 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Tour Packages</h1>
+            <p class="text-xl max-w-3xl mx-auto">From gorilla trekking to highland challenges, we design journeys that go deeper than the average safari.</p>
+        </div>
+    </section>
+
+    <!-- Packages -->
+    <section class="py-16 bg-cream-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Featured Tour Packages</h2>
+                <div class="w-24 h-1 bg-primary-500 mx-auto mb-6"></div>
+                <p class="text-lg text-gray-600 max-w-3xl mx-auto">Choose a curated itinerary, or message us for a custom route based on your dates and interests.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden package-card">
+                    <a href="tour-gorilla-trekking-bwindi.html" class="block group focus:outline-none focus:ring-2 focus:ring-primary-500">
+                        <picture>
+                            <source srcset="assets/images/packages/gorilla-trekking.webp" type="image/webp">
+                            <img src="assets/images/packages/gorilla-trekking.jpg" alt="Gorilla trekking experience in Bwindi, Uganda" class="w-full h-56 object-cover" width="1200" height="700" loading="lazy" decoding="async">
+                        </picture>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">3-Day Gorilla Trekking in Bwindi</h3>
+                            <p class="text-gray-600 mb-4">Embark on a once-in-a-lifetime adventure to meet mountain gorillas in their natural rainforest habitat.</p>
+                            <span class="inline-flex items-center gap-2 text-primary-600 font-semibold group-hover:text-primary-700">
+                                View Details <i class="fas fa-arrow-right text-sm"></i>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="px-6 pb-6">
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <a href="https://wa.me/256706190278" class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold transition-all text-center flex-1">
+                                Book on WhatsApp
+                            </a>
+                            <a href="tel:+256706190278" class="bg-gray-100 hover:bg-gray-200 text-gray-900 px-6 py-2 rounded-lg font-semibold transition-all text-center flex-1">
+                                Call
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden package-card">
+                    <a href="tour-kigezi-highlands-explorer.html" class="block group focus:outline-none focus:ring-2 focus:ring-primary-500">
+                        <picture>
+                            <source srcset="assets/images/packages/kigezi-highlands-explorer.webp" type="image/webp">
+                            <img src="assets/images/packages/kigezi-highlands-explorer.jpg" alt="Kigezi Highlands explorer tour in Uganda" class="w-full h-56 object-cover" width="1200" height="700" loading="lazy" decoding="async">
+                        </picture>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Kigezi Highlands Explorer — 7 Days</h3>
+                            <p class="text-gray-600 mb-4">A one-week journey through southwestern Uganda — wildlife, culture, lakes, and highland adventures.</p>
+                            <span class="inline-flex items-center gap-2 text-primary-600 font-semibold group-hover:text-primary-700">
+                                View Details <i class="fas fa-arrow-right text-sm"></i>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="px-6 pb-6">
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <a href="https://wa.me/256706190278" class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold transition-all text-center flex-1">
+                                Book on WhatsApp
+                            </a>
+                            <a href="tel:+256706190278" class="bg-gray-100 hover:bg-gray-200 text-gray-900 px-6 py-2 rounded-lg font-semibold transition-all text-center flex-1">
+                                Call
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden package-card">
+                    <a href="tour-virunga-peaks-challenge.html" class="block group focus:outline-none focus:ring-2 focus:ring-primary-500">
+                        <picture>
+                            <source srcset="assets/images/packages/virunga-peaks-challenge.webp" type="image/webp">
+                            <img src="assets/images/packages/virunga-peaks-challenge.jpg" alt="Virunga Peaks Challenge hiking adventure in Uganda" class="w-full h-56 object-cover" width="1200" height="700" loading="lazy" decoding="async">
+                        </picture>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Virunga Peaks Challenge — 7 Days</h3>
+                            <p class="text-gray-600 mb-4">Tri-summit hiking across Mount Gahinga, Muhabura, and Sabinyo — with coffee, canoeing, and culture.</p>
+                            <span class="inline-flex items-center gap-2 text-primary-600 font-semibold group-hover:text-primary-700">
+                                View Details <i class="fas fa-arrow-right text-sm"></i>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="px-6 pb-6">
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <a href="https://wa.me/256706190278" class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold transition-all text-center flex-1">
+                                Book on WhatsApp
+                            </a>
+                            <a href="tel:+256706190278" class="bg-gray-100 hover:bg-gray-200 text-gray-900 px-6 py-2 rounded-lg font-semibold transition-all text-center flex-1">
+                                Call
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden package-card">
+                    <a href="tour-lake-mburo-igongo.html" class="block group focus:outline-none focus:ring-2 focus:ring-primary-500">
+                        <picture>
+                            <source srcset="assets/images/packages/lake-mburo-igongo.webp" type="image/webp">
+                            <img src="assets/images/packages/lake-mburo-igongo.jpg" alt="Lake Mburo National Park safari experience in Uganda" class="w-full h-56 object-cover" width="1200" height="700" loading="lazy" decoding="async">
+                        </picture>
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Lake Mburo &amp; Igongo Cultural Experience — 2 Days</h3>
+                            <p class="text-gray-600 mb-4">A short but rich getaway combining wildlife in Lake Mburo with Ankole culture at Igongo Cultural Centre.</p>
+                            <span class="inline-flex items-center gap-2 text-primary-600 font-semibold group-hover:text-primary-700">
+                                View Details <i class="fas fa-arrow-right text-sm"></i>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="px-6 pb-6">
+                        <div class="flex flex-col sm:flex-row gap-3">
+                            <a href="https://wa.me/256706190278" class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-2 rounded-lg font-semibold transition-all text-center flex-1">
+                                Book on WhatsApp
+                            </a>
+                            <a href="tel:+256706190278" class="bg-gray-100 hover:bg-gray-200 text-gray-900 px-6 py-2 rounded-lg font-semibold transition-all text-center flex-1">
+                                Call
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Booking -->
+    <section class="py-16 bg-primary-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Let’s Plan Your Adventure</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Book through WhatsApp, call us directly, or send an email — we’ll respond quickly with the best options.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <a href="https://wa.me/256706190278" class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all text-center">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                </a>
+                <a href="tel:+256706190278" class="w-full sm:w-auto bg-white/10 hover:bg-white hover:text-gray-900 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all text-center">
+                    <i class="fas fa-phone mr-2"></i>Call
+                </a>
+                <a href="mailto:ishatoursandtravels256@gmail.com" class="w-full sm:w-auto bg-white/10 hover:bg-white hover:text-gray-900 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all text-center">
+                    <i class="fas fa-envelope mr-2"></i>Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-primary-400 mb-4">Isha Tours and Travels</h3>
+                    <p class="text-gray-400">Where wonders roam — authentic Uganda adventures designed by locals.</p>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="safaris.html" class="text-gray-400 hover:text-white transition">Activities</a></li>
+                        <li><a href="holiday-packages.html" class="text-gray-400 hover:text-white transition">Tour Packages</a></li>
+                        <li><a href="about-us.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about-us.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white transition">Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p><i class="fas fa-phone mr-2"></i> +256 706 190 278</p>
+                        <p><i class="fas fa-envelope mr-2"></i> ishatoursandtravels256@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Isha Tours and Travels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/site/mobile-menu.js"></script>
+</body>
+</html>

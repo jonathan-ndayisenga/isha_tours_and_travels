@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Isha Tours and Travels</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': {
+                            50: '#f2fbf7',
+                            100: '#dbf4e7',
+                            200: '#b8e8d0',
+                            300: '#86d3b0',
+                            400: '#4fb58a',
+                            500: '#0f5132',
+                            600: '#0b3d2e',
+                            700: '#083126',
+                            800: '#06271f',
+                            900: '#041f18',
+                        },
+                        'cream': {
+                            50: '#fffdf6',
+                            100: '#fff7e6',
+                            200: '#ffefcc',
+                            300: '#ffe4a3',
+                            400: '#ffd56b',
+                            500: '#ffc238',
+                            600: '#e0a820',
+                            700: '#c78814',
+                            800: '#9b6510',
+                            900: '#6b420c',
+                        }
+                    },
+                    fontFamily: {
+                        'sans': ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-cream-100 text-gray-900">
+    <!-- Header -->
+    <header class="bg-cream-50 shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <a href="index.html" class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-primary-700">
+                    <picture>
+                        <source srcset="assets/images/logo/logo.webp" type="image/webp">
+                        <img src="assets/images/logo/logo.png" alt="Isha Tours and Travels logo" class="h-10 w-10 object-contain" width="40" height="40" loading="eager" decoding="async">
+                    </picture>
+                    <span>Isha <span class="text-primary-500">Tours &amp; Travels</span></span>
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-gray-700 hover:text-primary-600 font-medium">Home</a>
+                <a href="safaris.html" class="text-gray-700 hover:text-primary-600 font-medium">Activities</a>
+                <a href="holiday-packages.html" class="text-gray-700 hover:text-primary-600 font-medium">Tour Packages</a>
+                <a href="gallery.html" class="text-gray-700 hover:text-primary-600 font-medium">Gallery</a>
+                <a href="about-us.html" class="text-primary-600 font-medium border-b-2 border-primary-600">About Us</a>
+                <a href="contact.html" class="text-gray-700 hover:text-primary-600 font-medium">Contact</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                <a href="https://wa.me/256706190278" class="bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all hidden md:inline-block">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                </a>
+                <button class="md:hidden text-gray-700" data-mobile-menu-button aria-controls="mobile-menu" aria-label="Open menu">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden bg-cream-50 border-t" id="mobile-menu">
+            <div class="container mx-auto px-4 py-4 space-y-4">
+                <a href="index.html" class="block text-gray-700 hover:text-primary-600 font-medium">Home</a>
+                <a href="safaris.html" class="block text-gray-700 hover:text-primary-600 font-medium">Activities</a>
+                <a href="holiday-packages.html" class="block text-gray-700 hover:text-primary-600 font-medium">Tour Packages</a>
+                <a href="gallery.html" class="block text-gray-700 hover:text-primary-600 font-medium">Gallery</a>
+                <a href="about-us.html" class="block text-gray-700 hover:text-primary-600 font-medium">About Us</a>
+                <a href="contact.html" class="block text-gray-700 hover:text-primary-600 font-medium">Contact</a>
+                <a href="https://wa.me/256706190278" class="block bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-all text-center">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                </a>
+                <a href="tel:+256706190278" class="block bg-primary-500 text-white px-4 py-2 rounded-lg hover:bg-primary-600 transition-all text-center">
+                    <i class="fas fa-phone mr-2"></i>Call Us
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Hero -->
+    <section class="bg-primary-600 pt-16 pb-20 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">About Isha Tours and Travels</h1>
+            <p class="text-xl">Authentic adventures designed by locals — wildlife, culture, and nature</p>
+        </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <picture>
+                        <source srcset="assets/images/packages/lake-mburo-igongo.webp" type="image/webp">
+                        <img src="assets/images/packages/lake-mburo-igongo.jpg" alt="Lake Mburo National Park safari experience in Uganda" class="rounded-lg shadow-lg w-full" width="1200" height="700" loading="lazy" decoding="async">
+                    </picture>
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Who We Are</h2>
+                    <p class="text-gray-600 mb-6 text-lg">
+                        Isha Tours and Travels is an immersive travel company based in Uganda that specializes in authentic, off-the-beaten-path adventures. From gorilla tracking and golden monkey treks to cultural experiences and scenic nature tours, we design journeys that go deeper than the average safari.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Whether you’re traveling solo, as a couple, with friends, or as a family, we tailor each itinerary to match your pace, interests, and comfort level.
+                    </p>
+                    <div class="bg-primary-50 border-l-4 border-primary-500 p-4 mb-6">
+                        <p class="text-gray-700">
+                            <span class="font-semibold">Our Mission:</span> To create meaningful travel experiences that connect explorers with Uganda’s vibrant culture, breathtaking landscapes, and remarkable wildlife — all while promoting responsible and sustainable tourism.
+                        </p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="https://wa.me/256706190278" class="w-full sm:w-auto bg-primary-500 hover:bg-primary-600 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all inline-block text-center">
+                            <i class="fab fa-whatsapp mr-2"></i>WhatsApp Us
+                        </a>
+                        <a href="tel:+256706190278" class="w-full sm:w-auto bg-gray-100 hover:bg-gray-200 text-gray-900 px-8 py-3 rounded-lg text-lg font-semibold transition-all inline-block text-center">
+                            <i class="fas fa-phone mr-2"></i>Call
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 bg-cream-100">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Why Travel With Us</h2>
+                <div class="w-24 h-1 bg-primary-500 mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-award text-primary-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Expert Local Guides</h3>
+                    <p class="text-gray-600">Knowledgeable, friendly guides who bring every trail and tradition to life.</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-handshake text-primary-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Custom Tours</h3>
+                    <p class="text-gray-600">We tailor itineraries to your interests — wildlife, culture, cycling, or relaxation.</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-leaf text-primary-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Sustainable Focus</h3>
+                    <p class="text-gray-600">We work with local communities to ensure tourism benefits people and places.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Story</h2>
+                <div class="w-24 h-1 bg-primary-500 mx-auto"></div>
+            </div>
+
+            <div class="max-w-4xl mx-auto text-center">
+                <p class="text-gray-600 text-lg mb-6">
+                    Founded with a passion for showcasing Uganda’s incredible beauty, Isha Tours and Travels creates immersive journeys for travelers from around the world. Our story began with a simple belief: the best trips are the ones that connect you with nature, culture, and community.
+                </p>
+                <p class="text-gray-600 text-lg mb-6">
+                    Over the years, we’ve built strong relationships with local communities and tourism partners to ensure each experience is authentic, safe, and responsibly run — benefiting people and places.
+                </p>
+                <p class="text-gray-600 text-lg">
+                    Today, we’re proud to guide guests through Uganda with warmth, professionalism, and the kind of local insight that turns a trip into a lifelong memory.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="py-16 bg-primary-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">Get in Touch Today</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div>
+                    <i class="fas fa-phone text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Call / WhatsApp</h3>
+                    <p class="text-primary-100">+256 706 190 278</p>
+                </div>
+                <div>
+                    <i class="fas fa-envelope text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Email Us</h3>
+                    <p class="text-primary-100">ishatoursandtravels256@gmail.com</p>
+                </div>
+                <div>
+                    <i class="fas fa-map-marker-alt text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Location</h3>
+                    <p class="text-primary-100">Based in Uganda</p>
+                    <p class="text-primary-100">Serving travelers worldwide</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col md:flex-row justify-center gap-4 mt-10">
+                <a href="https://wa.me/256706190278" class="w-full sm:w-auto bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all text-center">
+                    <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+                </a>
+                <a href="tel:+256706190278" class="w-full sm:w-auto bg-white/10 hover:bg-white hover:text-gray-900 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all text-center">
+                    <i class="fas fa-phone mr-2"></i>Call
+                </a>
+                <a href="mailto:ishatoursandtravels256@gmail.com" class="w-full sm:w-auto bg-white/10 hover:bg-white hover:text-gray-900 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-all text-center">
+                    <i class="fas fa-envelope mr-2"></i>Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-primary-400 mb-4">Isha Tours and Travels</h3>
+                    <p class="text-gray-400">Where wonders roam — authentic Uganda adventures designed by locals.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="safaris.html" class="text-gray-400 hover:text-white transition">Activities</a></li>
+                        <li><a href="holiday-packages.html" class="text-gray-400 hover:text-white transition">Tour Packages</a></li>
+                        <li><a href="about-us.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about-us.html" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-white transition">Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-2 text-gray-400">
+                        <p><i class="fas fa-phone mr-2"></i> +256 706 190 278</p>
+                        <p><i class="fas fa-envelope mr-2"></i> ishatoursandtravels256@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2026 Isha Tours and Travels. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/site/mobile-menu.js"></script>
+</body>
+</html>
