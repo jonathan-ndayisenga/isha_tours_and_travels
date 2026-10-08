@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 880" role="img" aria-labelledby="title desc">
+  <title id="title">Isha Tours and Travels</title>
+  <desc id="desc">A circular safari logo with an antelope and the words Isha Tours and Travels Where Wonders Roam.</desc>
+  <defs>
+    <linearGradient id="ring" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3d17b"/>
+      <stop offset="50%" stop-color="#d88a27"/>
+      <stop offset="100%" stop-color="#c16d12"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f9a13b"/>
+      <stop offset="100%" stop-color="#e57e22"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#3e8d2d"/>
+      <stop offset="100%" stop-color="#1f5d2d"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#3b2b1a" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <circle cx="440" cy="440" r="382" fill="#f3f1e9" stroke="url(#ring)" stroke-width="34"/>
+  <circle cx="440" cy="440" r="328" fill="url(#sun)"/>
+  <circle cx="440" cy="440" r="290" fill="rgba(255,255,255,0.06)"/>
+
+  <path d="M70 610 C 200 515, 310 520, 440 570 C 550 610, 702 610, 810 620 L 810 730 L 70 730 Z" fill="#d89f32" opacity="0.9"/>
+  <g opacity="0.7">
+    <path d="M100 620 L140 520 L170 620 Z" fill="#2b6f31"/>
+    <path d="M150 620 L190 500 L230 620 Z" fill="#2b7a31"/>
+    <path d="M205 620 L245 520 L285 620 Z" fill="#205b28"/>
+    <path d="M640 620 L675 505 L715 620 Z" fill="#2b6f31"/>
+    <path d="M690 620 L730 500 L770 620 Z" fill="#2b7a31"/>
+    <path d="M735 620 L775 520 L810 620 Z" fill="#205b28"/>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="95" y="635" width="690" height="90" rx="18" fill="rgba(0,0,0,0.08)"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M440 180 L505 250 L555 194 L620 260 L560 330 L490 290 L440 340 L390 290 L320 330 L260 260 L325 194 L380 250 Z" fill="#2e1a12" opacity="0.9"/>
+    <path d="M385 212 C 355 170, 305 145, 255 152 C 320 207, 335 255, 340 328 L 385 328 Z" fill="#2d1b14"/>
+    <path d="M495 212 C 525 170, 575 145, 625 152 C 560 207, 545 255, 540 328 L 495 328 Z" fill="#2d1b14"/>
+    <path d="M315 225 C 330 180, 365 135, 402 189 C 385 230, 362 260, 332 286 L 315 225 Z" fill="#d9ba8d" stroke="#3d2a1d" stroke-width="10"/>
+    <path d="M565 225 C 550 180, 515 135, 478 189 C 495 230, 518 260, 548 286 L 565 225 Z" fill="#d9ba8d" stroke="#3d2a1d" stroke-width="10"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M310 420 C 330 340, 372 300, 440 300 C 505 300, 565 340, 586 420 L 625 460 C 650 500, 650 600, 608 640 L 600 640 C 590 620, 570 620, 540 630 L 513 640 L 472 640 L 426 640 L 385 630 L 350 620 L 320 620 C 280 620, 254 600, 266 553 L 310 420 Z" fill="#d88e2f" stroke="#4a2d1d" stroke-width="14"/>
+    <path d="M418 334 C 390 356, 375 383, 375 418 C 375 455, 390 487, 418 512 C 440 532, 470 540, 500 530 C 530 520, 560 492, 570 455 C 580 418, 568 378, 545 346 C 520 313, 463 310, 418 334 Z" fill="#f0bf71" stroke="#4a2d1d" stroke-width="14"/>
+    <ellipse cx="440" cy="420" rx="122" ry="130" fill="#f3c97d"/>
+    <ellipse cx="440" cy="425" rx="90" ry="92" fill="#fcbf68"/>
+    <path d="M355 420 C 345 368, 390 330, 441 332 C 489 334, 529 368, 565 420 C 545 462, 503 492, 444 492 C 392 492, 365 467, 355 420 Z" fill="#f8d28f"/>
+    <path d="M370 360 C 384 345, 405 332, 432 329 L 449 350 C 438 358, 427 369, 420 382 L 370 360 Z" fill="#4c2d1a" opacity="0.85"/>
+    <path d="M510 360 C 496 345, 475 332, 448 329 L 431 350 C 442 358, 453 369, 460 382 L 510 360 Z" fill="#4c2d1a" opacity="0.85"/>
+
+    <ellipse cx="400" cy="421" rx="20" ry="18" fill="#1d1d1d"/>
+    <ellipse cx="481" cy="421" rx="20" ry="18" fill="#1d1d1d"/>
+    <circle cx="394" cy="416" r="5" fill="#f4f1ec"/>
+    <circle cx="475" cy="416" r="5" fill="#f4f1ec"/>
+    <path d="M410 470 C 430 485, 450 485, 470 470" stroke="#512d1b" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M425 495 L440 505 L455 495" stroke="#512d1b" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M392 440 L355 427 L340 445" stroke="#4d2a1b" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M488 440 L525 427 L540 445" stroke="#4d2a1b" stroke-width="10" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <g filter="url(#shadow)" opacity="0.92">
+    <path d="M246 630 L 315 612 L 330 658 L 326 678 L 252 698 L 238 650 Z" fill="#5f3d22"/>
+    <path d="M634 630 L 563 612 L 548 658 L 552 678 L 626 698 L 640 650 Z" fill="#5f3d22"/>
+    <path d="M302 655 L 308 737 L 356 737 L 336 655 Z" fill="#d7a86f"/>
+    <path d="M578 655 L 572 737 L 524 737 L 544 655 Z" fill="#d7a86f"/>
+  </g>
+
+  <g fill="#2b782f" opacity="0.9">
+    <path d="M150 700 L120 642 L185 648 L170 700 Z"/>
+    <path d="M228 700 L200 640 L256 646 L248 700 Z"/>
+    <path d="M660 700 L626 642 L690 648 L680 700 Z"/>
+    <path d="M734 700 L708 648 L760 646 L760 700 Z"/>
+  </g>
+
+  <g font-family="Poppins, Arial, sans-serif" font-weight="800" fill="#f7da8c" text-anchor="middle">
+    <text x="440" y="100" font-size="68" letter-spacing="10">ISHA</text>
+    <text x="440" y="810" font-size="58" letter-spacing="10">WHERE WONDERS ROAM</text>
+  </g>
+
+  <g font-family="Poppins, Arial, sans-serif" font-weight="700" fill="#f7da8c" text-anchor="middle">
+    <text x="440" y="170" font-size="34" letter-spacing="7">TOURS AND TRAVEL</text>
+  </g>
+</svg>
